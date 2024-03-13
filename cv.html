@@ -26,7 +26,7 @@
         text-decoration: none;
         color: blue;
       }
-      a:hover {
+      .navigasi a:hover {
         text-decoration: underline;
       }
       section {
@@ -38,6 +38,26 @@
         padding: 10px;
         text-align: center;
       }
+      .pendidikan {
+        background-color: bisque;
+        color: blueviolet;
+      }
+      #sd::first-line {
+        color: red;
+      }
+      #smp::first-line {
+        color: green;
+      }
+      #smk::first-line {
+        color: #000000;
+      }
+      #biodata {
+        background-color: bisque;
+        color: #09a0f2;
+      }
+      .socialmedia a {
+        color: white;
+      }
     </style>
   </head>
   <body>
@@ -46,7 +66,7 @@
       <p>Web Developer | Software Enginer</p>
     </header>
     <nav>
-      <ul>
+      <ul class="navigasi">
         <li><a href="#biodata">Biodata</a></li>
         <li><a href="#pendidikan">Pendidikan</a></li>
         <li><a href="#Skill">Skill</a></li>
@@ -59,19 +79,19 @@
       <p>Jenis Kelamin : Laki - laki</p>
       <p>Email: wardaya56@gmail.com</p>
     </section>
-    <section id="pendidikan">
+    <section class="pendidikan">
       <h2>Pendidikan</h2>
       <ul>
-        <li>Sekolah dasar -SDN 29 Dangin Puri</li>
-        <li>Sekolah Menengah Pertama -SMP Dwijendra Denpasar</li>
-        <li>Sekolah Menengah Kejuruan -SMK Teknologi Nasioanal</li>
+        <li id="sd">Sekolah dasar -SDN 29 Dangin Puri</li>
+        <li id="smp">Sekolah Menengah Pertama -SMP Dwijendra Denpasar</li>
+        <li id="smk">Sekolah Menengah Kejuruan -SMK Teknologi Nasioanal</li>
       </ul>
     </section>
-    <section id="skills">
+    <section class="skill">
       <h2>Skills</h2>
       <p>HTML, CSS, JavaScript, PHP, Python, C++.</p>
     </section>
-    <footer>
+    <footer class="socialmedia">
       <p>Ikuti saya di social media: <a href="https://www.instagram.com/wahyuwardaya15/">Instragram</a>, <a href="https://www.youtube.com/@wahyuwardaya3667">Youtube</a></p>
     </footer>
   </body>
