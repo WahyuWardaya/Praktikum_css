@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+}
+header {
+  background-color: #09a0f2;
+  padding: 20px;
+  text-align: center;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: blue;
+}
+.navigasi a:hover {
+  text-decoration: underline;
+}
+section {
+  margin: 20px 0;
+}
+footer {
+  color: white;
+  background-color: #0352e6;
+  padding: 10px;
+  text-align: center;
+}
+.pendidikan {
+  background-color: bisque;
+  color: blueviolet;
+}
+#sd::first-line {
+  color: red;
+}
+#smp::first-line {
+  color: green;
+}
+#smk::first-line {
+  color: #000000;
+}
+#biodata {
+  background-color: bisque;
+  color: #09a0f2;
+}
+.socialmedia a {
+  color: white;
+}
+.skill {
+  border: 1px solid;
+  border-color: #000000;
+  padding: 20px;
+  margin: 10px;
+  box-shadow: 0 0 5px;
+}
